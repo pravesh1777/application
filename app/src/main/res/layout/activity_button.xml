@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Button1" android:id="@+id/l1" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:id="@+id/iv2">
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="80dp"
+        android:layout_height="80dp" android:layout_marginLeft="150dp"
+        android:src="@drawable/img">
+
+    </ImageView>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:background="#6FC1B7"
+            android:text="ss"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ToggleButton
+            android:id="@+id/tg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:background="#E18383"
+            android:text=" Hii">
+
+        </ToggleButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textAlignment="center" android:text="Which Fruit you like" android:background="#F9A825" android:layout_marginTop="12dp"></TextView>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rd1"
+                android:layout_width="match_parent" android:layout_weight="1"
+                android:layout_height="wrap_content" android:text=" Apple"></RadioButton>
+            <RadioButton
+                android:id="@+id/rd2"
+                android:layout_width="match_parent" android:layout_weight="1"
+                android:layout_height="wrap_content" android:text=" Mango "></RadioButton>
+            <RadioButton
+                android:id="@+id/rd3"
+                android:layout_width="match_parent" android:layout_weight="1"
+                android:layout_height="wrap_content" android:text=" Govava"></RadioButton>
+        </RadioGroup>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text=" Which colour do you like" style="@style/TextAppearance.Material3.BodyLarge" android:background="#00838F" android:textAlignment="center"></TextView>
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Red"></CheckBox>
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Green"></CheckBox>
+    <CheckBox
+        android:id="@+id/ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Yellow"></CheckBox>
+    <CheckBox
+        android:id="@+id/ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Black"></CheckBox>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/sw2">
+        <Switch
+            android:id="@+id/sw1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="160dp"></Switch>
+
+    </LinearLayout>
+
+</LinearLayout>

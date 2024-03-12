@@ -1,0 +1,10 @@
+<resources>
+    <string name="Bank_name">Practice</string>
+    <string name="bank">hhhh</string>
+    <string-array name="ar1">
+        <item>Sbi</item>
+        <item>Union</item>
+        <item>HDFC</item>
+        <item>Boi</item>
+    </string-array>
+</resources>
